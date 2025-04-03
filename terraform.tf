@@ -8,7 +8,7 @@ resource "azurerm_storage_account" "example" {
   location                 = var.location
   account_tier             = "Standard"
   account_replication_type = "LRS"
-  kind                     = "StorageV2"
+  #kind                     = "StorageV2"
 }
 
 variable "storage_account_name" {
